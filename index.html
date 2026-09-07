@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#12131f">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="calculator" aria-label="Calculator">
+        <header class="app-heading">
+            <p class="eyebrow">QUICK MATH</p>
+            <h1>Calculator</h1>
+        </header>
+        <div class="display" aria-live="polite">0</div>
+
+        <button class="utility" data-action="clear">AC</button>
+        <button class="utility" data-action="delete" aria-label="Delete last digit">&#9003;</button>
+        <button class="operator" data-operation="/">&divide;</button>
+        <button class="operator" data-operation="*">&times;</button>
+        <button class="number">7</button>
+        <button class="number">8</button>
+        <button class="number">9</button>
+        <button class="operator" data-operation="-">&minus;</button>
+        <button class="number">4</button>
+        <button class="number">5</button>
+        <button class="number">6</button>
+        <button class="operator" data-operation="+">+</button>
+        <button class="number">1</button>
+        <button class="number">2</button>
+        <button class="number">3</button>
+        <button class="equals" data-action="equals">=</button>
+        <button class="number zero">0</button>
+        <button class="number">.</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
